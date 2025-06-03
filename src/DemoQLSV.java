@@ -11,7 +11,7 @@ public class DemoQLSV {
         String id = sc.nextLine();
 
         System.out.println("Nhập điểm môn toán: ");
-        double math = Double.parseDouble(sc.nextLine());
+        double toan = Double.parseDouble(sc.nextLine());
 
         System.out.println("Nhập điểm môn lý: ");
         double ly = Double.parseDouble(sc.nextLine());
@@ -19,7 +19,7 @@ public class DemoQLSV {
         System.out.println("Nhập điểm môn hóa: ");
         double hoa = Double.parseDouble(sc.nextLine());
 
-        SinhVien sv = new SinhVien(name,id,math,ly,hoa);
+        SinhVien sv = new SinhVien(name,id,toan,ly,hoa);
         System.out.println("-----KẾT QUẢ-----");
         sv.hienThiThongTin();
 
